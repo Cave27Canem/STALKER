@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comfortaa&family=Montserrat:ital,wght@1,300&family=Nanum+Gothic&family=Oswald&display=swap');
+header, footer, container
+
+body, main, header, footer, container{
+  background: url("D:/Штуки/klimenko/End/img/Сталкер фон.PNG") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+
+nav li {
+ padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+
+.carousel a:hover {
+ background: rgba(255, 255, 255, 0.2);
+}
+
+p, small, h3, h4, h2 {
+ font-family: 'Piedra', cursive;
+}
+
+
+a, button, input, textarea {
+ font-family: 'Comfortaa', cursive;
+}

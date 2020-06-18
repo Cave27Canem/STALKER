@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>С.Т.А.Л.К.Е.Р.</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="shadow-sm rounded">
+      <img class="d-block mx-auto" src="img\S.T.A.L.K.E.R. лого2.png" width="350" draggable="false" alt="Логотип">
+    </div>
+    <!-- Navbar -->
+       <nav class="navbar navbar-expand-lg navbar-dark">
+         <div class="container">
+           <a class="navbar-brand mr-5" href="#">Блог Мастера</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" ariaexpanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <!-- menu -->
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                 <a class="nav-link" href="Stalker.html"><i class="fas fa-campground"></i>Домашняя<i class="fas fa-campground"></i></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="StalkerAbout.html"><i class="fas fa-user"></i>Описание
+                 <i class="fas fa-user"></i></a>
+               </li>
+               <!-- dropdown menu -->
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   <i class="fas fa-gamepad"></i>
+                   Игры
+                   <i class="fas fa-gamepad"></i>
+                 </a>
+                 <div class="dropdown-menu" id="custom-dropdown-menu">
+                   <a class="dropdown-item" href="#">
+                     С.Т.А.Л.К.Е.Р. 2
+                     <span class="badge badge-secondary badge-info ml-2">
+                       Soon
+                     </span>
+                   </a>
+                   <a class="dropdown-item" href="StalkerCP.html">Зов Припяти</a>
+                   <a class="dropdown-item" href="StalkerCS.html">Чистое Небо</a>
+                   <a class="dropdown-item" href="StalkerSC.html">Тень Чернобыля</a>
+
+                 </div>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="https://www.stalker-game.com/"><i class="fas fa-comments"></i>Официальный сайт<i class="fas fa-comments"></i></a>
+               </li>
+             </ul>
+           </div>
+           <!-- /menu -->
+         </div>
+       </nav>
+  </header>
+
+
+  <main class="py-0 mb-0">
+   <div class="container">
+     <div class="row">
+
+       <div class="col-md-12">
+         <!-- Contact Form -->
+         <h3 class="display-4">
+             Связь со мной
+           </h3>
+         <div class="mb-1">
+           <h4>
+             <i class="far fa-envelope"></i>
+             По всем врпросам писать сюда
+           </h4>
+         </div>
+         <p class="text-muted">
+           Мой Email: <a href="#">ContactSt@mail.com</a>
+         </p>
+
+         <!-- Input -->
+         <form>
+           <div class="row">
+             <!-- Name -->
+             <div class="col-md-6 pb-3">
+               <input type="text" class="form-control input" name="name" data-form-field="Name" placeholder="Your Name" required="">
+             </div>
+             <!-- Phone -->
+             <div class="col-md-6 pb-3">
+               <input type="text" class="form-control input" name="phone" data-form-field="Phone" placeholder="Phone" required="">
+             </div>
+             <!-- Email -->
+             <div class="col-md-12 pb-3">
+               <input type="email" class="form-control input" name="email" data-form-field="Email" placeholder="Email" required="">
+             </div>
+             <!-- Message -->
+             <div class="col-md-12 pb-3">
+               <textarea class="form-control input" name="message" rows="3" maxlength="6000" data-form-field="Message" placeholder="Message" style="resize:none"></textarea>
+             </div>
+             <div class="input-group-btn col-md-12">
+               <button type="submit" class="btn btn-outline-dark btn-form display-4">Send Message</button>
+             </div>
+           </div>
+         </form>
+       </div>
+       <!-- /col-md-6 -->
+
+     </div>
+     <!-- /row -->
+   </div>
+   <!-- /container -->
+ </main>
+
+
+  <!-- FOOTER -->
+  <footer class="border-top">
+    <div class="container">
+      <!-- Logo - Posts - Nav -->
+      <div class="row py-3 ">
+        <!-- Logo -->
+    <div class="col-md-12">
+      <img class="d-block mx-auto" src="img\S.T.A.L.K.E.R. лого2.png" width="350" draggable="false" alt="Логотип">
+    </div>
+
+      </div>
+      <!-- /row -->
+
+      <!-- Copyright -->
+      <div class="row py-3 d-flex justify-content-center  border-top">
+        <small class="d-block text-light">Copyright &copy; 2007-2020</small>
+      </div>
+
+    </div>
+    <!-- /container -->
+  </footer>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script type="text/javascript">
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+ })
+ $(function () {
+   $('[data-toggle="popover"]').popover()
+ })
+</script>
